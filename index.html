@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- link favicon -->
+    <link
+      rel="shortcut icon"
+      href="./images/favicon-32x32.png"
+      type="image/x-icon"
+    />
+    <title>project tracking intro component</title>
+
+    <!-- fontAwesome cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- normalize css -->
+    <link rel="stylesheet" href="./styles/normalize.css" />
+    <!-- custom css -->
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="navbar-left">
+        <img src="./images/logo.svg" alt="" />
+      </div>
+      <div class="navbar-right">
+        <ul class="navbar-desktop">
+          <li>Product</li>
+          <li>Features</li>
+          <li>Pricing</li>
+          <button class="btn-login">log in</button>
+        </ul>
+      </div>
+      <div class="mobile-menu">
+        <div class="mobile-icon">
+          <img
+            src="./images/icon-hamburger.svg"
+            alt=""
+            class="mobile-open"
+            id="mobile-menu"
+          />
+          <img
+            src="./images/icon-close.svg"
+            alt=""
+            class="close-menu close"
+            id="mobile-open"
+          />
+        </div>
+      </div>
+      <ul class="navbar-mobile close" id="navbar-mobile">
+        <li>Product</li>
+        <li>Features</li>
+        <li>Pricing</li>
+        <hr class="line" />
+        <button class="btn-login">log in</button>
+      </ul>
+    </nav>
+    <main>
+      <div class="left-container">
+        <div class="detail-container">
+          <p class="para">
+            <strong>New </strong>M o n o g r a p h D a s h b o a r d
+          </p>
+          <h1 class="title">
+            Powerful insights into your team Project planning and time tracking
+            for agile teams
+          </h1>
+          <p class="sub-para">
+            project planning and time tracking for agile team
+          </p>
+        </div>
+        <div class="button-container">
+          <button class="btn-demo">Schedule a demo</button>
+          <p>to see a live preview</p>
+        </div>
+      </div>
+      <div class="right-container">
+        <!-- navbar desktop -->
+        <div class="image-container">
+          <img src="./images/illustration-devices.svg" alt="" /
+          class="main-image">
+        </div>
+      </div>
+    </main>
+
+    <!-- custom script -->
+    <script src="./scripts/script.js"></script>
+  </body>
+</html>
